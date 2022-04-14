@@ -9,3 +9,6 @@
 - Utilização do *ngIf
 - Utilização do **else** com o **ng-template** e **template variables** (#meuTemplate)
 - Utilização e casos de uso do **ng-container**
+
+
+![Animation](https://user-images.githubusercontent.com/34581188/163294037-c313914f-e49a-4b29-b2a7-b3bfee3d0f14.gif)
