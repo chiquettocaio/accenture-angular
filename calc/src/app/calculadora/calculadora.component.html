@@ -1,0 +1,11 @@
+<div class="calculadora-wrapper">
+  <visor [value]="getVisorSentence()"> </visor>
+
+  <div class="buttons">
+    <calc-button
+      *ngFor="let label of buttonLabels"
+      [buttonValue]="label"
+      (clicked)="buttonClicked($event)"
+    ></calc-button>
+  </div>
+</div>

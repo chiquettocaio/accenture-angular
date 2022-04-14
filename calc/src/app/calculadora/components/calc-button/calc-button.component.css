@@ -1,0 +1,18 @@
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-family: sans-serif;;
+  font-size: 30px;
+  width: 100px;
+  height: 100px;
+  background: rgb(14, 13, 13);
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-wrapper:hover {
+  background: #2a2a2a;
+}

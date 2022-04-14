@@ -1,0 +1,17 @@
+.calculadora-wrapper {
+  width: 500px;
+  height: 600px;
+  background: rgb(224, 224, 224);
+  padding: 25px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 100px;
+  gap: 10px;;
+
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
