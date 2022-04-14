@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
     - Só pode existir um ponto por sentença
     - Utilizar algum pipe do Angular ou então alguma função do JS para evitar números decimais muito grandes
   2. Utilizar algum pipe no visor para formatar os números enquanto eles são digitados (1.000, 10.000, etc)
-  3. Se quiser, implementar um botão de "clear" para limpar toda a sentença */
+  3. Se quiser, implementar um botão de "clear" para limpar toda a sentença
+  4. Realizar o cálculo quando operador for pressionado novamente após segunda parte da sentença (1 + 1 já mostra 2 antes que o segundo "1" seja exibido) */
 
 @Component({
   selector: 'calculadora',
