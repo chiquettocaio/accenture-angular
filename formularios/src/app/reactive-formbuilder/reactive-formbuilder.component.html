@@ -1,0 +1,31 @@
+<form [formGroup]="meuFormGroup">
+  <label for="name"> Nome: </label>
+  <input
+    id="name"
+    type="text"
+    formControlName="nome"
+    autocomplete="off">
+
+  <label for="age"> Idade: </label>
+  <input
+    id="age"
+    type="text"
+    formControlName="idade"
+    autocomplete="off"
+    required>
+
+  <div
+    class="nested"
+    formGroupName="formGroupFilho"
+  >
+    <label for="lala"> Bairro: </label>
+      <input
+        id="lala"
+        type="text"
+        formControlName="bairro"
+        autocomplete="off">
+  </div>
+
+
+  <button (click)="imprimeFormulario()"> Imprimir valor do formulario </button>
+</form>

@@ -1,0 +1,9 @@
+<form>
+  <label for="name"> Name </label>
+  <input
+    id="name"
+    type="text"
+    [formControl]="nameFormControl">
+
+  {{ nameFormControl.value }}
+</form>

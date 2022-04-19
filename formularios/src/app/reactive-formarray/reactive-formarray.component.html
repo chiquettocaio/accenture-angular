@@ -1,0 +1,23 @@
+<form
+  [formGroup]="meuFormGroup"
+  (ngSubmit)="submitForm()"
+>
+  <label for="name"> Nome: </label>
+  <input
+    id="name"
+    type="text"
+    formControlName="nome"
+    autocomplete="off">
+
+  <label for="age"> Idade: </label>
+  <input
+    id="age"
+    type="text"
+    formControlName="idade"
+    autocomplete="off">
+
+  <button [disabled]="!meuFormGroup.valid"> Imprimir valor do formulario </button>
+</form>
+
+<!-- <button (click)="mudandoValorComSetValue()"> Mudar valor do formulários </button> -->
+<button (click)="mudandoValorComPatchValue()"> Mudar valor do formulário </button>

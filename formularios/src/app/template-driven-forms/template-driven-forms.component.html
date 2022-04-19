@@ -1,0 +1,16 @@
+<form #meuFormulario="ngForm">
+  <label for="name"> Nome:  </label>
+
+  <input
+    id="name"
+    type="text"
+    [(ngModel)]="formData.name"
+    name="teste">
+
+  {{ formData | json }}
+</form>
+
+<!--
+  FORMULARIO DO TIPO TEMPLATE DRIVEN
+  PARA UTILIZAR ESSE CARA, UTILIZAMOS O MODULO "FORMSMODULE" E O "NGMODEL"
+ -->

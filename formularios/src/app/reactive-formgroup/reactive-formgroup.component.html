@@ -1,0 +1,41 @@
+<form [formGroup]="meuFormGroup">
+  <label for="name"> Nome: </label>
+  <input
+    id="name"
+    type="text"
+    formControlName="nome"
+    autocomplete="off">
+
+  <label for="age"> Idade: </label>
+  <input
+    id="age"
+    type="text"
+    formControlName="idade"
+    autocomplete="off"
+    required>
+
+  <div
+    class="nested"
+    formGroupName="formGroupFilho"
+  >
+    <label for="lala"> Bairro: </label>
+      <input
+        id="lala"
+        type="text"
+        formControlName="bairro"
+        autocomplete="off">
+  </div>
+
+
+  <button (click)="imprimeFormulario()"> Imprimir valor do formulario </button>
+</form>
+
+<!--
+  Form da familia "reactive forms" do angular.
+  -> Importar o modulo "ReactiveFormsModule" no nosso módulo raiz, ou no módulo que formos usar nosso formulário
+  -> É necessário declarar o atributo "formGroup" na tag de formulário
+  -> É necessário declarar o atributo "formControlName" na tag do input, para que o angular entenda
+    qual propriedade pertence tal input
+
+  Tratando-se de formGroups aninnhados, a gente utiliza o atributo "formGroupName"
+ -->
