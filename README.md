@@ -25,3 +25,29 @@
   - Explicação e uso do **setValue({})**
   - Explicação e uso do **patchValue({})**
   - Estudo da metodologia adotada para criação de formulários no nosso atual projeto
+
+### Aula 3 - Observables
+- O que são Observables
+- O que é RxJS
+- Como os observables funcionam
+- Estrutura de um Observable
+  - Uso do Observer
+- Método subscribe()
+  - next(), error() e complete()
+  - Por quê se inscrever?
+  - Async pipe
+- Unsubscribe()
+  - A importância de se desinscrever
+  - unsubscribe()
+  - Operador take()
+  - Subscription geral para desinscrição em massa - subscription.add()
+  - Async pipe
+- Operadores RxJS
+  - take
+  - of
+  - map
+  - filter
+  - tap
+  - skip
+- Método pipe() do Observable
+  - Criação de receipts
