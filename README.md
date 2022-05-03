@@ -1,4 +1,4 @@
-### Aula 1 - Calculadora
+## Aula 1 - Calculadora
 - Criação do projeto pelo CLI
 - Criação de componentes e módulos pelo CLI
 - Introdução aos módulos e componentes
@@ -12,7 +12,7 @@
 
 ![Animation](https://user-images.githubusercontent.com/34581188/163294037-c313914f-e49a-4b29-b2a7-b3bfee3d0f14.gif)
 
-### Aula 2 - Formulários
+## Aula 2 - Formulários
 - Rápida passagem pelos template driven forms (https://angular.io/guide/forms)
 - Estudo dos ReactiveForms
   - Utilização de **FormControls**
@@ -26,7 +26,7 @@
   - Explicação e uso do **patchValue({})**
   - Estudo da metodologia adotada para criação de formulários no nosso atual projeto
 
-### Aula 3 - Observables
+## Aula 3 - Observables
 - O que são Observables
 - O que é RxJS
 - Como os observables funcionam
@@ -52,7 +52,7 @@
 - Método pipe() do Observable
   - Criação de receipts
 
-### Aula 4 - Resumo do que foi visto nas 3 primeiras aulas
+## Aula 4 - Resumo do que foi visto nas 3 primeiras aulas
 - Utilização de Observables
 - Requisições HTTP
 - Criação e utilização de classe de serviço
