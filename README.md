@@ -55,6 +55,7 @@
 ### Aula 4 - Resumo do que foi visto nas 3 primeiras aulas
 - Utilização de Observables
 - Requisições HTTP
+- Criação e utilização de classe de serviço
 - Utilização de formulários
 - Utilização de conceitos básicos do Angular para estabelecer uma comunicação entre componentes
 
