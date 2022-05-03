@@ -51,3 +51,11 @@
   - skip
 - Método pipe() do Observable
   - Criação de receipts
+
+### Aula 4 - Resumo do que foi visto nas 3 primeiras aulas
+- Utilização de Observables
+- Requisições HTTP
+- Utilização de formulários
+- Utilização de conceitos básicos do Angular para estabelecer uma comunicação entre componentes
+![a](https://user-images.githubusercontent.com/34581188/166590464-91906729-2c59-4091-b20a-14050f9acbda.gif)
+
