@@ -1,0 +1,12 @@
+<div class="app-wrapper">
+  <div class="left">
+    <formulario
+      (requisicaoBemSucedida)="tratarDadosDaRequisicao($event)"></formulario>
+  </div>
+
+  <div class="right">
+    <listagem-dados
+      [dadosDaRequisicao]="dadosRecebidosDoComponenteDeFormulario"
+    ></listagem-dados>
+  </div>
+</div>

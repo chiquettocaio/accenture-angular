@@ -1,0 +1,34 @@
+<div class="form-wrapper">
+  <form
+    [formGroup]="meuFormulario"
+    (ngSubmit)="submitForm()"
+  >
+
+    <div class="row">
+      <label for="name"> Nome: </label>
+      <input
+        id="name"
+        type="text"
+        formControlName="nome"
+        autocomplete="off">
+    </div>
+
+    <div class="row">
+      <label for="age"> Idade: </label>
+      <input
+        id="age"
+        type="text"
+        formControlName="idade"
+        autocomplete="off">
+    </div>
+
+    <button> Fazer requisição </button>
+  </form>
+
+  <div
+    *ngIf="botaoSubmitClicado"
+    class="loading"
+  >
+    <div class="icon"></div>
+  </div>
+</div>
