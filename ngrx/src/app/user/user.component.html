@@ -1,0 +1,33 @@
+<div *ngIf="(user$ | async) as user">
+
+  <div>
+    <label for="name"> Name </label>
+    <input
+      id="name"
+      type="text"
+      [value]="user.name"
+      (blur)="updateUserName($event)">
+  </div>
+
+  <div>
+    <label for="age"> Age </label>
+    <input
+      id="age"
+      type="text"
+      [value]="user.age"
+      (blur)="updateUserAge($event)">
+  </div>
+
+  <div>
+    <label for="role"> Role </label>
+    <input
+      id="role"
+      type="text"
+      [value]="user.role"
+      (blur)="updateUserRole($event)">
+  </div>
+</div>
+
+<button (click)="updateUser()"> Alterar o usuário todo </button>
+
+{{ user$ | async | json }}

@@ -1,0 +1,11 @@
+<div>
+  <label for="item"> Item do add </label>
+  <input
+    id="item"
+    type="text"
+    [value]="item"
+    (input)="setItem($event)">
+
+  <button (click)="addItemToStore()"> Add Item </button>
+  <button (click)="removeLastFromStore()"> Remove last Item </button>
+</div>

@@ -1,0 +1,7 @@
+<ul
+  *ngIf="(items$ | async) as items"
+  class="list"
+>
+  <li *ngFor="let item of items"> {{ item }} </li>
+</ul>
+
