@@ -61,3 +61,12 @@
 
 ![a](https://user-images.githubusercontent.com/34581188/166590464-91906729-2c59-4091-b20a-14050f9acbda.gif)
 
+## Aula 5 - NgRX
+- O que é NgRX
+- Como utilizar o NgRX
+- Actions
+- Reducers
+- Selectors
+- Manipulação de dados da store
+- Utilização da dados da store nos componentes
+- ![a](https://user-images.githubusercontent.com/34581188/167744440-10871f79-8193-41de-88e9-88adee4e4cdf.gif)
