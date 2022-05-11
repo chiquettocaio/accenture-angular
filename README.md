@@ -69,4 +69,5 @@
 - Selectors
 - Manipulação de dados da store
 - Utilização da dados da store nos componentes
-- ![a](https://user-images.githubusercontent.com/34581188/167744440-10871f79-8193-41de-88e9-88adee4e4cdf.gif)
+
+![a](https://user-images.githubusercontent.com/34581188/167744440-10871f79-8193-41de-88e9-88adee4e4cdf.gif)
