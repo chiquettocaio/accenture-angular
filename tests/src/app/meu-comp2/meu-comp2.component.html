@@ -1,0 +1,11 @@
+<form [formGroup]="myFormGroup">
+  <div class="line">
+    <label for="tech"> Tecnologia </label>
+    <input
+      id="tech"
+      type="text"
+      formControlName="tech">
+  </div>
+</form>
+
+{{ myFormGroup.value | json }}
