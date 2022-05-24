@@ -71,3 +71,25 @@
 - Utilização da dados da store nos componentes
 
 ![a](https://user-images.githubusercontent.com/34581188/167744440-10871f79-8193-41de-88e9-88adee4e4cdf.gif)
+
+## Aula 6 - Testes unitários
+- O que é Jasmine e Karma Test Runner
+- Como funcionam os testes no Angular
+- Code coverage
+- Testes de componentes
+- Testes de services
+- Verificação de valor de atributo
+- Verificação de valor retornado por método
+- Verificação de conteúdo renderizado no HTML
+  - QuerySelector
+  - By.css()
+- Simulação de clique de botão
+- Simulação do change de um input (formulário está sendo atualizado?)
+- Verificação sobre uma função (foi chamada?)
+- Mocks de métodos
+- Mockando vários retornos para uma mesma função
+- Mockando um serviço inteiro (injeção de dependência)
+- Testando a resposta de um observable
+- Testando o error de um observable
+- Como passar pelas branchs de um observable
+- Teste de integração entre um componente e um serviço.
