@@ -1,3 +1,6 @@
+# Conteúdo
+Conteúdo do curso ministrado por mim enquanto dev da Accenture, para outros devs da Accenture.
+
 ## Aula 1 - Calculadora
 - Criação do projeto pelo CLI
 - Criação de componentes e módulos pelo CLI
